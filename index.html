@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>MP3 Player</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: #1e1e2f;
+        color: white;
+        padding: 20px;
+      }
+      input, button {
+        padding: 10px;
+        margin: 5px 0;
+        width: 100%;
+      }
+      audio {
+        margin-top: 10px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Link do MP3:</h3>
+    <input type="text" id="mp3link" placeholder="Cole aqui o link .mp3" />
+    <button onclick="tocarAudio()">Tocar</button>
+    <audio id="audioPlayer" controls></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>

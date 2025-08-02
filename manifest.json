@@ -1,0 +1,12 @@
+{
+  "name": "Player de Áudio",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "action": {
+    "title": "MP3 Player",
+    "icon": "/icon.svg",
+    "popover": "/index.html",
+    "height": 250,
+    "width": 400
+  }
+}
